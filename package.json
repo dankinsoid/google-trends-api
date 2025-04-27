@@ -17,7 +17,8 @@
     "lint:staged": "lint-staged"
   },
   "lint-staged": {
-    "*.js": "lint:eslint"
+  "src/**/*.js": "lint:eslint",
+  "test/**/*.js": "lint:eslint"
   },
   "pre-commit": "lint:staged",
   "repository": {
